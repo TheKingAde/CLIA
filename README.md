@@ -1,4 +1,4 @@
-# codeGuru - Google PaLM Text Generation
+# codeGuru
 codeGuru is a Python script that leverages the Google PaLM (Probabilistic and Logical Modeling) API to generate text responses based on user input or content provided in files. It provides both command-line and interactive modes for convenient use.
 
 # Requirements
