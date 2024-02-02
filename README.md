@@ -28,9 +28,10 @@ Examples
 Command Line Example
 
 <code>python codeGuru.py question.txt answer.txt explain<code>
+
 Interactive Mode Example
 
-python codeGuru.py
+<code>python codeGuru.py<code>
 
 # Instructions
 In command-line mode, provide file paths for input and output along with an optional instruction.
@@ -38,5 +39,6 @@ In interactive mode, type your questions, code queries, or type 'exit' to quit.
 
 # Additional Information
 For more details on the Google PaLM API, refer to the official documentation.
-License
+
+# License
 This project is licensed under the MIT License. Feel free to use and modify the code as needed.
