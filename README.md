@@ -8,17 +8,17 @@ Google PaLM API key
 # Installation
 Install the required Python packages:
 
-<code>pip install google.generativeai<code>
+<code>pip install google.generativeai</code>
 
 Configure your Google PaLM API key:
 Replace 'YOUR_API_KEY' with your actual API key
-<code>palm.configure(api_key='YOUR_API_KEY')<code>
+palm.configure(api_key='YOUR_API_KEY')
 
 # Usage
 Command Line Mode
 Run the script with command-line arguments to specify input files and optional instructions:
 
-<code>python codeGuru.py file1.txt file2.txt instruction<code>
+<code>python codeGuru.py file1.txt file2.txt instruction</code>
 
 # Interactive Mode
 Launch interactive mode to ask questions and receive text responses:
@@ -27,11 +27,11 @@ python codeGuru.py
 Examples
 Command Line Example
 
-<code>python codeGuru.py question.txt answer.txt explain<code>
+<code>python codeGuru.py question.txt answer.txt explain</code>
 
 Interactive Mode Example
 
-<code>python codeGuru.py<code>
+<code>python codeGuru.py</code>
 
 # Instructions
 In command-line mode, provide file paths for input and output along with an optional instruction.
