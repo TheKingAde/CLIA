@@ -3,7 +3,15 @@ from unittest.mock import patch
 import codeGuru
 import sys
 
-class TestYourProgram(unittest.TestCase):
+
+class TestYouirProgram(unittest.TestCase):
+    """
+    Test suite for the codeGuru module.
+
+    Methods:
+        - test_interactiveMode
+        - test_runWithCmdLineArg
+    """
 
     @patch('builtins.input', return_value='exit')
     def test_interactiveMode(self, input):
@@ -33,6 +41,7 @@ class TestYourProgram(unittest.TestCase):
         sys.argv.pop()
         sys.argv.pop()
         sys.argv.pop()
+
 
 if __name__ == '__main__':
     unittest.main()

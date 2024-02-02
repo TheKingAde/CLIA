@@ -1,8 +1,24 @@
 import sys
 import google.generativeai as palm
+"""
+codeGuru - Google PaLM Text Generation
+
+This module provides a Python script that leverages the Google PaLM (Probabilistic and Logical Modeling) API to generate text responses based on user input or content provided in files. It offers both command-line and interactive modes for convenient use.
+
+Usage:
+    - Run the script with command-line arguments to specify input files and optional instructions.
+    - Launch interactive mode to ask questions and receive text responses.
+
+Requirements:
+    - Python 3.x
+    - `google.generativeai` package
+    - [Google PaLM API key](https://cloud.google.com/pa-lm/docs/quickstart)
+
+Author: Meffun Adegoke
+"""
 
 # Configure the Google PaLM API with your API key
-palm.configure(api_key='AIzaSyDXNVDbOLLUKukRp5pxnzZGzX3KNk8MPtY')
+palm.configure(api_key='Your_API_KEY')
 
 
 def runWithCmdLineArg():
