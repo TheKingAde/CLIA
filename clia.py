@@ -19,7 +19,7 @@ Author: Meffun Adegoke
 """
 
 # Configure the Google PaLM API with your API key
-palm.configure(api_key='Your_API_KEY')
+palm.configure(api_key='AIzaSyDXNVDbOLLUKukRp5pxnzZGzX3KNk8MPtY')
 
 
 def runWithCmdLineArg():
@@ -68,6 +68,8 @@ def interactiveMode():
     """
     while True:
         user_input = input("CLIA>>> ")
+        if not user_input:
+            continue
         if user_input.lower() == "help":
             print("Ask about anything!")
             print("e.g. 'What is the capital of France?')")
