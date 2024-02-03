@@ -25,7 +25,7 @@ Launch interactive mode to ask questions and receive text responses:
 
 <code>python clia.py</code>
 
-  #Examples
+  # Examples
 Command Line Example
 
 <code>python clia.py question.txt answer.txt "explain"</code>
