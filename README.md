@@ -18,7 +18,7 @@ palm.configure(api_key='YOUR_API_KEY')
 Command Line Mode
 Run the script with command-line arguments to specify input files and optional instructions:
 
-<code>python clia.py file1.txt file2.txt instruction</code>
+<code>python clia.py file1.txt file2.txt "instruction"</code>
 
 # Interactive Mode
 Launch interactive mode to ask questions and receive text responses:
@@ -28,7 +28,7 @@ Launch interactive mode to ask questions and receive text responses:
 Examples
 Command Line Example
 
-<code>python clia.py question.txt answer.txt explain</code>
+<code>python clia.py question.txt answer.txt "explain"</code>
 
 Interactive Mode Example
 
