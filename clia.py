@@ -19,7 +19,7 @@ Author: Meffun Adegoke
 """
 
 # Configure the Google PaLM API with your API key
-palm.configure(api_key='AIzaSyDXNVDbOLLUKukRp5pxnzZGzX3KNk8MPtY')
+palm.configure(api_key='YOUR_API_KEY')
 
 
 def runWithCmdLineArg():
