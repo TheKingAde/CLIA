@@ -1,5 +1,4 @@
 #!/usr/bin/python
-import getpass
 import sys
 import os
 import google.generativeai as palm
@@ -84,9 +83,11 @@ def interactiveMode():
             print("e.g. 'What is the capital of France?')")
             print("You can also ask about code")
             print("e.g. 'What is the syntax for a for loop?')")
-            print("type 'exit' to quit")
+            print("type 'exit' or 'quit' to exit")
             continue
         if user_input.lower() == 'exit':
+            break
+        if user_input.lower() == 'quit':
             break
         try:
             response = palm.generate_text(
