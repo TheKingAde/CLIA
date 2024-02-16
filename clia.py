@@ -73,7 +73,7 @@ def interactiveMode():
     """
     username = os.getenv("USERNAME")
     print("CLIA>>> Command Line Interface Ai Assistant")
-    print("[D] Hello {}, How can i help?".format(username))
+    print("[D] Hello {}, How can i help you?".format(username))
     while True:
         user_input = input("CLIA>>> ")
         if not user_input:
